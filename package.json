@@ -1,0 +1,32 @@
+{
+  "name": "vue-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwagner86/vue-profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwagner86/vue-profile/issues"
+  },
+  "homepage": "https://github.com/zwagner86/vue-profile#readme",
+  "dependencies": {
+    "vue": "2.5.22",
+    "vue-hot-reload-api": "2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "2.5.1",
+    "parcel-bundler": "1.11.0",
+    "pug": "2.0.3",
+    "vue-template-compiler": "2.5.22"
+  }
+}
