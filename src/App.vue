@@ -1,23 +1,52 @@
 <template lang="pug">
-    div.container
-        h1 {{ message }}
+    div
+        Profile
 </template>
 
 <script>
+import Profile from './components/profile/Profile';
+
 export default {
     name: 'App',
-    data() {
-        return {
-            message: 'Zachary Wagner - Parcel + Vue',
-        };
-    },
+    components: {
+        Profile
+    }
 };
 </script>
 
-<style scoped>
-    .container {
-        width: 600px;
-        margin: 50px auto;
-        text-align: center;
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        background-color: #ffffff;
+        font-size: 14px;
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.4;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1,
+    h4 {
+        margin-bottom: 10px;
+        font-family: inherit;
+        font-weight: 400;
+        line-height: 1.3;
+        color: inherit;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin-top: 10px;
     }
 </style>
