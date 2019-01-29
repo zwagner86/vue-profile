@@ -54,7 +54,7 @@ export default {
 <style scoped>
     .ProfileInfo {
         width: 100%;
-        background-color: #045e8e;
+        background-color: #2f855f;
         color: #ffffff;
         padding-left: 15px;
         padding-right: 15px;
@@ -122,16 +122,16 @@ export default {
         width: 175px;
         padding: 6px 12px;
         margin-bottom: 0;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 1.3;
         text-align: center;
         white-space: nowrap;
         vertical-align: middle;
         background-color: #ffffff;
-        border-color: #045e8e;
-        border-radius: 0;
-        color: #045e8e;
+        border-color: #2f855f;
+        border-radius: 16px;
+        color: #2f855f;
     }
 
     .ProfileInfo-resume-btn:hover,

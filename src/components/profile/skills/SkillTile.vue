@@ -74,6 +74,6 @@ export default {
         vertical-align: middle;
         padding-left: 3px;
         margin-top: -4px;
-        color: #045e8e;
+        color: #2f855f;
     }
 </style>

@@ -22,7 +22,7 @@ export default {
     body {
         margin: 0;
         background-color: #ffffff;
-        font-size: 14px;
+        font-size: 16px;
         font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
         line-height: 1.4;
     }
@@ -41,12 +41,12 @@ export default {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 40px;
         margin-top: 20px;
     }
 
     h4 {
-        font-size: 18px;
+        font-size: 20px;
         margin-top: 10px;
     }
 </style>
