@@ -1,16 +1,28 @@
 <template lang="pug">
     .SkillTile
-        h1 {{ message }}
+        .SkillTile-label
+            .SkillTile-text
+                | {{ name }}
+                font-awesome-icon.SkillTile-icon-star(
+                    v-if="showStar"
+                    icon="star"
+                )
+        .SkillTile-image-block
+            .SkillTile-image-cell
+                img.SkillTile-image(
+                    :src="logo"
+                    alt="name"
+                )
 </template>
 
 <script>
 export default {
     name: 'SkillTile',
-    data() {
-        return {
-            message: 'Skill Tile',
-        };
-    },
+    props: {
+        name: String,
+        showStar: Boolean,
+        logo: String
+    }
 };
 </script>
 
