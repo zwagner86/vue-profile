@@ -6,6 +6,10 @@
         .Menu-links
             a.Menu-link(href="https://www.zacharywagner.net") Home
             a.Menu-link(href="https://www.zacharywagner.net/resume") Resume
+            .Menu-link-divider-block
+                .Menu-link-divider
+                    span Other Site Versions
+            a.Menu-link(href="https://www.zacharywagner.net") React
 </template>
 
 <script>
@@ -107,6 +111,31 @@ export default {
 
     .Menu-link-active {
         font-weight: 600;
+    }
+
+    .Menu-link-divider-block {
+        width: 100%;
+        padding: 0 8px;
+    }
+
+    .Menu-link-divider {
+        font-size: 16px;
+        border: none;
+        border-bottom: 1px solid #46494C;
+        margin: 1.4em 0 1.8em;
+        height: 11px;
+        width: 100%;
+        color: #2f855f;
+        display: block;
+        position: relative;
+        text-align: center;
+        background: none;
+    }
+
+    .Menu-link-divider > span {
+        display: inline-block;
+        background: #ffffff;
+        padding: 0 12px;
     }
 
     @media (min-width: 768px) {

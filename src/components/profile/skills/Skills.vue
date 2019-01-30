@@ -15,8 +15,8 @@
                         span.Skills-section-highlight full-stack experience
                         span , but a passion for working in the 
                         span.Skills-section-highlight front-end
-                        span . For example, I made my personal page so I could play around with 
-                        span.Skills-section-highlight React
+                        span . For example, I made this page so I could play around with 
+                        span.Skills-section-highlight Vue
                         span !
             .Skills-section
                 .Skills-section-header WHAT?
