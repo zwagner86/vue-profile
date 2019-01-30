@@ -1,14 +1,17 @@
 <template lang="pug">
     div
+        Menu
         Profile
 </template>
 
 <script>
+import Menu from './components/common/menu/Menu';
 import Profile from './components/profile/Profile';
 
 export default {
     name: 'App',
     components: {
+        Menu,
         Profile
     }
 };
