@@ -18,6 +18,9 @@
                         span . For example, I made this page so I could play around with 
                         span.Skills-section-highlight Vue
                         span !
+                .Skills-section-info
+                    .Skills-section-description
+                        | I also made versions of this page using React and ReasonML!  You can get to those using the menu.  They really aren&apos;t any different.  I just wanted to be able to compare the frameworks firsthand.
             .Skills-section
                 .Skills-section-header WHAT?
                 .Skills-section-info(v-if="!isLoading && !hasErrored")

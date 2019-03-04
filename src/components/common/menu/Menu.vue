@@ -10,6 +10,7 @@
                 .Menu-link-divider
                     span Other Site Versions
             a.Menu-link(href="https://www.zacharywagner.net") React
+            a.Menu-link(href="https://reasonml.zacharywagner.net") ReasonML
 </template>
 
 <script>
