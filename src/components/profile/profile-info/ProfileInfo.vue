@@ -4,7 +4,7 @@
             .ProfileInfo-inner-cell
                 .ProfileInfo-pic-container
                     img.ProfileInfo-pic-img(
-                        :src="profilePic"
+                        :src="profileImage"
                         alt="Zachary Wagner Profile"
                     )
                 h1 Hey, I&apos;m Zach,
@@ -39,13 +39,13 @@
 </template>
 
 <script>
-import profilePic from './assets/prof-pic.png';
+import {profileImage} from 'personal-site-data';
 
 export default {
     name: 'ProfileInfo',
     data() {
         return {
-            profilePic
+            profileImage
         };
     },
 };
