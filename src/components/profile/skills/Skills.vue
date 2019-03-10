@@ -56,7 +56,7 @@
                             target="_blank"
                             rel="noopener noreferrer"
                         ) {{company.name}}
-                    div {{company.from}} - {{company.to}}
+                    div {{company.fromDate}} - {{company.toDate}}
                     div {{company.location}}
                     div {{company.title}}
 </template>
