@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "2.5.1",
-    "parcel-bundler": "1.11.0",
+    "parcel-bundler": "1.12.3",
     "pug": "2.0.4",
     "vue-template-compiler": "2.6.10"
   }
