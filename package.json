@@ -26,13 +26,13 @@
     "@fortawesome/vue-fontawesome": "0.1.5",
     "axios": "0.18.0",
     "personal-site-data": "https://github.com/zwagner86/personal-site-data.git",
-    "vue": "2.5.22",
+    "vue": "2.6.10",
     "vue-hot-reload-api": "2.3.3"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "2.5.1",
     "parcel-bundler": "1.11.0",
     "pug": "2.0.4",
-    "vue-template-compiler": "2.5.22"
+    "vue-template-compiler": "2.6.10"
   }
 }
