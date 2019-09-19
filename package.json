@@ -22,7 +22,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.22",
     "@fortawesome/free-brands-svg-icons": "5.10.2",
-    "@fortawesome/free-solid-svg-icons": "5.10.2",
+    "@fortawesome/free-solid-svg-icons": "5.11.1",
     "@fortawesome/vue-fontawesome": "0.1.6",
     "axios": "0.19.0",
     "personal-site-data": "https://github.com/zwagner86/personal-site-data.git",
