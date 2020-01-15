@@ -10,7 +10,7 @@
                 h1 Hey, I&apos;m Zach,
                 h4.ProfileInfo-h4 a Front End Engineer
                 h4.ProfileInfo-h4 working in Chicago
-                h4.ProfileInfo-h4 for SpotHero
+                h4.ProfileInfo-h4 for Rippleshot
                 .ProfileInfo-social-icons
                     a.ProfileInfo-social-link.ProfileInfo-linkedin-link(
                         href="https://www.linkedin.com/in/zacharywagner"
